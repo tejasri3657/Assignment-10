@@ -138,15 +138,18 @@ https://github.com/tejasri3657/Assignment-10/new/main
 %
 %
 \section{QUESTION No-2.51(Inequalities)}
-Solve:  x+y $\leq$ 6, x+y $\ge$ 4,
+Solve:  x+y $\leq$ 6, x+y $\geq$ 4,
 \section{Solution}
 Let
--x-y $\ge$ -6,x+y $\ge$ 4.
-
-
-Let $u_1 \ge 0, u_2 \ge 0$. 
-
-This may be expressed as
+\begin{align}
+\label{eq:1}
+\begin{split}
+-x-y &\geq -6,
+\\x+y &\geq 4.
+\end{split}
+\end{align}
+\\
+Let $u_1 \ge 0, u_2 \ge 0$. This may be expressed as
 \begin{align}
 \vec{u} = \myvec{u_1\\u_2}\succeq \vec{0}
 \end{align}
@@ -161,12 +164,12 @@ Now we have,
 \\
 \vec{x}=\myvec{\frac{6}{0} \\ \frac{-4}{0}} +\frac{-1}{0}\myvec{1&-1 \\ 1&1}\vec{u}
 \end{align}
-Thus the solution of the system of inequalities can be determined graphically.Which is represented in the below figure,
+Thus the solution of the system of inequalities can be determined graphically.Which is represented in the below figure \ref{eq:1}
 \numberwithin{figure}{section}
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\columnwidth]{diagram.png}
 \caption{Graphical solution}
-\label{Graphical solution}
+\label{eq:1 Graphical solution}
 \end{figure}
 \end{document}
